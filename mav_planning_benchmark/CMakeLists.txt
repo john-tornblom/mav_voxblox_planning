@@ -5,6 +5,7 @@ find_package(catkin_simple REQUIRED)
 catkin_simple(ALL_DEPS_REQUIRED)
 
 add_definitions(-std=c++11)
+include_directories(${OMPL_INCLUDE_DIRS})
 
 #############
 # LIBRARIES #
